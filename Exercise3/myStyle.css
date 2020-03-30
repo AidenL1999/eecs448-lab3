@@ -1,0 +1,38 @@
+body
+{
+    background-image: url('2.jpeg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+p
+{
+    color: cyan;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+}
+
+h1
+{
+    color: white;
+}
+a
+{
+    color: green;
+    font-size: larger;
+}
+a.video
+{
+    color: darkcyan;
+    font-size: larger;
+}
+
+a:hover
+{
+    background-color: green;
+    color: blue;
+}
+h2{
+    color:white;
+}
