@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <h1>Exercise 4: CSS Manipulation</h1>
+    <style>
+        #p {
+            border: thick solid black;
+        }
+
+        .block {
+            width: 400px;
+            display: block;
+            margin: 5px 0;
+        }
+
+
+        label {
+            display: inline-block;
+            width: 80px;
+            text-align: right;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4: CSS Manipulation</title>
+    <script src="exe4.js"></script>
+</head>
+
+<body>
+    <h3>Enter the value between 0-255 for colors.</h3><br>
+    <p id="p">If you eat me, you die.
+
+    If you drink me, you die.
+
+    If you breathe me, you die.
+
+    What am I?
+
+    I am
+
+    ...............................
+
+    Nothing~</p>
+    <div class="block">
+        Border：<br><br />
+        <label>Red value </label>
+        <input id="red_border" ><br />
+        <label>Green value</label>
+        <input id="green_border"><br />
+        <label>Blue value</label>
+        <input id="blue_border"><br />
+        <label>Width</label>
+        <input id="width"><br><br />
+    </div>
+    <div class="block">
+        Background:<br><br />
+        <label>Red value</label>
+        <input id="red_back"><br />
+        <label>Green value</label>
+        <input id="green_back"><br />
+        <label>Blue value</label>
+        <input id="blue_back"><br><br />
+        <button id="confirm">Confirm</button>
+    </div>
+    
+        <span id="info"></span>
+</body>
+</html>
